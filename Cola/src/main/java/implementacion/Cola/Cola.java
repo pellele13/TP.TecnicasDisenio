@@ -9,20 +9,14 @@ public class Cola implements Queue {
 		
 	public Cola(){
 		this.primero = null;
-		this.ultimo = null;
 		this.tamanio = 0;
 	}
 	
 	public boolean isEmpty() {
-		boolean vacia = false;
-		if (tamanio == 0){ 
-			vacia = true;
-		}
-		return vacia;
+		return tamanio == 0;
 	}
 
 	public int size() {
-		
 		return tamanio;
 	}
 
