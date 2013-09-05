@@ -44,5 +44,6 @@ public class Cola implements Queue {
 
 	public void remove() {
 		primero = primero.getSiguiente();
+		tamanio--;
 	}
 }
